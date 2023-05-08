@@ -3,6 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+background-color: #f0f2f5; /* 연한 회색 */
 }
 
 .container {
@@ -57,4 +58,14 @@ img {
 .btn:hover {
     background-color: #0056B3;
     cursor: pointer;
+}
+.event-details {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.event-details p {
+	font-weight: bold;
+    margin: 0.5rem 0;
 }
