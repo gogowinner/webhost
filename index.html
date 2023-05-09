@@ -1,39 +1,167 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>창업 동반자 찾기</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>스피드 커피챗</title>
+    <style>
+
+    /* 추가된 스타일 */
+    .floating-cta {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 999;
+    }
+
+    .floating-cta a {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .floating-cta a:hover {
+        background-color: #45a049;
+    }
+
+
+        body {
+            font-family: "Arial", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        h1, h2, h3 {
+            font-family: 'Noto Sans KR', sans-serif;
+
+            font-weight: bold;
+            color: #333;
+        }
+        p {
+            font-size: 1.1em;
+            color: #666;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+        li {
+            font-size: 1.1em;
+            color: #666;
+            padding: 5px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .apply-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            margin: 20px 0;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .apply-btn:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+	.gallery {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.gallery img {
+    width: calc(33.33% - 20px);
+}
+    </style>
 </head>
 <body>
-	<div class="floating-cta">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQK5QswFnYFPYk8Kf0y64HFLMCjhWUWgcusIEFbOvyg22Efw/viewform?usp=sf_link" class="btn">예약 및 신청</a>
-</div>
-
-    <div class="container">
-        <h1>멀고 먼 창업의 길..</h1>
-        <img src="https://media.discordapp.net/attachments/1086201735141392437/1105032164896153600/00099-110074058.png?width=612&height=612" alt="창업 길">
-        <h2>누구와 함께 할 수 있을까?</h2>
-        <img src="https://media.discordapp.net/attachments/1086201735141392437/1105037619026477148/00006-27386287.png?width=612&height=612" alt="누구와 함께">
-        <h3>먼길의 예비 동반자를 만날 기회를 넓혀 드립니다.</h3>
-        <img src="https://media.discordapp.net/attachments/1086201735141392437/1105036915125780600/00097-1236681322.jpg?width=612&height=612" alt="예비 동반자">
-        <h4>창업에 관련한 기본적인 관심을 표현한 분들을 모셨습니다.</h4>
-
-        <div class="gallery">
+    <main>
+        <h1>스피드 커피챗 창업 모임</h1>
+        <section class="intro">
+            <p><em>창업 부트캠프에서 여러명이서 이야기하고 커피챗 하시느라 힘드셨죠?</em></p>
+            <p>나와 맞는 공동창업자를 구하는 건 나와 맞는 연인을 찾는것과 비슷하듯 쉽지 않은 과정입니다.</p>
+            <img src="https://media.discordapp.net/attachments/1086201735141392437/1105037619026477148/00006-27386287.png?width=612&height=612" alt="누구와 함께">
+            <p><strong>성격도, 가치관도, 대화도, 일하는 스타일도</strong></p>
+            <p>나와 잘
+맞는 그런 공동창업자를 어디서 만나야 할까요? 한번에 다양한 예비창업자 분들과 1:1로 이야기 나누고 마음에 맞는 분도 찾을 수 있는 스피드 커피챗에 한번 참여해 보세요~</p>
+<img src="https://media.discordapp.net/attachments/1086201735141392437/1105036915125780600/00097-1236681322.jpg?width=612&height=612" alt="예비 동반자">
+              <h2>* 스피드커피챗이란?</h2>
+    <p>다양한 직업, 연령대의 사람들이 모여 짧은 시간 동안 로테이션으로 대화를 나누고, 대화를 더 나누고 싶은 사람을 지망표에 작성하여 매칭하는 방식으로 진행됩니다.</p>
+<div class="gallery">
             <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbONOWl%2FbtrNKUKCGKU%2F6TcAMhKSACsy6347FfAnT1%2Fimg.jpg" alt="참가자1">
-            <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbONOWl%2FbtrNKUKCGKU%2F6TcAMhKSACsy6347FfAnT1%2Fimg.jpg" alt="참가자2">
-            <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbONOWl%2FbtrNKUKCGKU%2F6TcAMhKSACsy6347FfAnT1%2Fimg.jpg" alt="참가자3">
+            <img src="https://media.discordapp.net/attachments/1086201735141392437/1105112946624958504/2023-05-08_214324.png" alt="참가자2">
+           
         </div>
-<div class="event-details">
-    <p>날짜: 5월 17일 오후 7시</p>
-    <p>신청 금액: 20,000원</p>
-</div>
-        <div class="cta">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQK5QswFnYFPYk8Kf0y64HFLMCjhWUWgcusIEFbOvyg22Efw/viewform?usp=sf_link" class="btn">예약 및 신청</a>
-</div>
 
+	<img src="https://media.discordapp.net/attachments/1086201735141392437/1105128605639507978/meeting_loc_1.png" alt="예비 동반자">
+    <h2>- 진행 방식</h2>
+    <ul>
+        <li>19:20~19:40: 인원체크, 자리 배정 및 프로필 카드 작성</li>
+        <li>19:40~21:50: 예비창업자 간의 로테이션 대화</li>
+        <li>21:50~22:10: 3지망 호감팅 및 매칭결과 발표</li>
+    </ul>
+
+    <h2>* Q&A</h2>
+    <h3>- 참여 신청 방법이 어떻게 될까요?</h3>
+    <p>예약 및 신청 버튼 클릭 후 양식에 맞게 작성해여 제출해 주시면 되겠습니다</p>
+    <h3>- 참석시 제공되는 것들이 어떤게 있나요?</h3>
+    <p>회비 비용에 음료(커피 등)가 모두 포함되어 있기 때문에 음료를 함께 제공해드리고 있습니다.</p>
+
+    <h3>- 모임 참여 인원수와 연령대는 어떻게 되나요?</h3>
+    <p>현재 직장인 이신 분들이 대부분이고 연령대는 80~94년생 위주로, 최대 28명으로 1:1 로테이션으로 진행되며 성비는 최대한 맞춰 진행할 예정입니다.</p>
+
+    <h3>- 정해진 드레스코드가 있을까요?</h3>
+    <p>나의 매력을 어필할 수 있는 매너있는 복장으로 부탁드립니다.</p>
+
+    <h3>- 주차 가능할까요?</h3>
+    <p>주차는 불가능합니다. 인근 공용주차장을 이용해주시기 바랍니다.</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQK5QswFnYFPYk8Kf0y64HFLMCjhWUWgcusIEFbOvyg22Efw/viewform?usp=sf_link" class="apply-btn">예약 및 신청</a>
+</section>
+
+<div class="floating-cta">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQK5QswFnYFPYk8Kf0y64HFLMCjhWUWgcusIEFbOvyg22Efw/viewform?usp=sf_link" class="btn">예약 및 신청</a>
+   
 </div>
-<script src="scripts.js"></script>
+    <footer>
+        모임 날짜: 5월 17일 | 신청 금액: 20,000원
+    </footer>
+ </main>
 </body>
 </html>
+
